@@ -89,7 +89,17 @@ class Forms {
     private $quantity;
     private $casis;
 
-    public function __construct() {
+    public function __construct($val1, $val2, $val3, $val4, $val5, $val6, $val7, $val8) {
+        $this->name = $val1;
+        $this->contactName = $val2;
+        $this->contactMail = $val3;
+        $this->contactPhone = $val4;
+        $this->comments = $val5;
+        $this->info = $val6;
+        $this->personalContact = $val7;
+        $this->quantity = $val8;
+        $this->casis = $val8;
+        
         $this->connection = new DB_con();
     }
     

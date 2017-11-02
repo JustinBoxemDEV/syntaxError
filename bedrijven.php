@@ -63,7 +63,7 @@
       </div>
     <div class="row">
       <h1>Bedrijf aanmelden</h1>
-      <form>
+      <form action="" method="post">
         <div class="form-group">
           <label for="comment">Bedrijfs naam:</label>
           <input name="name" type="text" class="form-control" id="comment">
@@ -91,7 +91,7 @@
         </div>
         <div class="checkbox disabled">
                  <input name="info" type="hidden" value="0">
-          <label><input name="info" type="checkbox" value="1" disabled>Meer informatie </label>
+          <label><input name="info" type="checkbox" value="1">Meer informatie </label>
         </div>
         <div class="form-group">
           <label name="comments" for="comment">Opmerkingen:</label>

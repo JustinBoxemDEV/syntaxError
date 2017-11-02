@@ -60,7 +60,12 @@
         <div class="col-lg-12">
           <?php include 'assets/php/schooldata.php'; ?>
                   <h1>Bedrijf aanmelden</h1>
-        <form>
+          <?php
+          /*
+           * Include de contestants page, waar de verwerkingscode staat van de form.
+           */
+          include 'assets/php/contestants.php'; ?>
+        <form action="" method="post">
           <div class="form-group">
             <label for="comment">Opleiding naam:</label>
             <input name="name" type="text" class="form-control" id="comment">
@@ -88,14 +93,14 @@
           </div>
           <div class="checkbox disabled">
                    <input name="personalContact" type="hidden" value="0">
-            <label><input name="info" type="checkbox" value="1" disabled>Meer informatie </label>
+            <label><input name="info" type="checkbox" value="1">Meer informatie </label>
           </div>
           <div class="form-group">
             <label for="comment">Opmerkingen:</label>
             <textarea name="comments" class="form-control" rows="5" id="comment"></textarea>
           </div>
           <div class="form-group" style="text-align: center;">
-            <input type="button" name="send" class="btn btn-danger" value="Versturen">
+            <input type="submit" name="send" class="btn btn-danger" value="Versturen">
           </div>
         </form>
         </div>
