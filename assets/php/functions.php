@@ -76,3 +76,21 @@ class Products{
             return $array;
         }
 }
+
+class Enquete{
+    private $connection;
+
+    public function __construct() {
+        $this->connection = new DB_con();
+    }
+
+    public function getEnqueteResults() {
+            $array = array();
+            $query = "SELECT name, opinion FROM enquete";
+            $result = $this->connection->sql($query);
+            while ($row = mysqli_fetch_assoc($result)) {
+                array_push($array, array("name"=>$row['name'], "opinion"=>$row['opinion']));
+            }
+            return $array;
+        }
+}
