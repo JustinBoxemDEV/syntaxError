@@ -79,6 +79,15 @@ class Products{
 
 class Forms {
     private $connection;
+    private $name;
+    private $contactName;
+    private $contactMail;
+    private $contactPhone;
+    private $comments;
+    private $info;
+    private $personalContact;
+    private $quantity;
+    private $casis;
 
     public function __construct() {
         $this->connection = new DB_con();
@@ -86,11 +95,14 @@ class Forms {
     
     public function sendSchool(){
         
+        $sql = "INSERT INTO contestants (name, contactName, contactMail, contactPhone, comments, info, personalContact, quantity)"
+                . "VALUES ('".$this->name."', '".$this->contactName."', '".$this->contactMail."', '".$this->contactPhone."', '".$this->comments."', '".$this->info."', '".$this->personalContact."', '".$this->quantity."')";
     }
     
     public function sendComp(){
-        
-    }
+        $sql = "INSERT INTO contestants (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
+                . "VALUES ('".$this->name."', '".$this->contactName."', '".$this->contactMail."', '".$this->contactPhone."', '".$this->comments."', '".$this->info."', '".$this->personalContact."', '".$this->casis."')";
+    }        
 }
 
 class Enquete{
