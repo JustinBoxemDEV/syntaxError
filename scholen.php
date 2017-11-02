@@ -50,7 +50,7 @@
     </script>
 
 </head><!--/head-->
-<body style="margin-top: 70px;">
+<body style="margin-top: 0px;">
 <div id="preloader"></div>
   <?php require 'navbar.php';?>
 
