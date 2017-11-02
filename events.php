@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>About Us | Impact By Distinctive Themes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    'use strict';
+
+
+        $("#mapwrapper").gMap({ controls: false,
+            scrollwheel: false,
+            markers: [{
+                latitude:40.7566,
+                longitude: -73.9863,
+            icon: { image: "images/marker.png",
+                iconsize: [44,44],
+                iconanchor: [12,46],
+                infowindowanchor: [12, 0] } }],
+            icon: {
+                image: "images/marker.png",
+                iconsize: [26, 46],
+                iconanchor: [12, 46],
+                infowindowanchor: [12, 0] },
+            latitude:40.7566,
+            longitude: -73.9863,
+            zoom: 14 });
+    });
+    </script>
+</head><!--/head-->
+<body style="margin-bottom: 30px;">
+<div id="preloader"></div>
+
+<?php require 'navbar.php';?>
+
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="fotos/event_courosel/test.jpg" alt="Los Angeles" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="fotos/event_courosel/test2.jpg" alt="Chicago" style="width:100%;">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+<div class="container">
+
+                  <h2 class="main-title" style="text-align: center;">events</h2>
+
+                <div class="row" style="border: solid red 2px; max-height: 500px; overflow: scroll;">
+
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>
+</body>
+<?php include 'footer.php'; ?>
+
+
+</html>
