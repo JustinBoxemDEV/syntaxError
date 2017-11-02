@@ -50,55 +50,57 @@
     </script>
 
 </head><!--/head-->
-<body style="background-color: white">
+<body style="margin-top: 70px;">
 <div id="preloader"></div>
   <?php require 'navbar.php';?>
 
 
-    <div class="container" style="margin-top: 40px;">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <?php include 'assets/php/schooldata.php';?>
-          <h1>Bedrijf aanmelden</h1>
-          <form>
-            <div class="form-group">
-              <label for="comment">Opleiding naam:</label>
-              <input type="text" class="form-control" id="comment">
-            </div>
-            <div class="form-group">
-              <label for="comment">Contactpersoon:</label>
-              <input type="text" class="form-control" id="comment">
-            </div>
-            <div class="form-group">
-              <label for="comment">E-mail:</label>
-              <input type="text" class="form-control" id="comment">
-            </div>
-            <div class="form-group">
-              <label for="comment">Telefoon:</label>
-              <input type="text" class="form-control" id="comment">
-            </div>
-            <p>Wat wilt u</p>
-            <div class="checkbox">
-              <label><input type="checkbox" value="">Een of meerdere team aanmelden </label>
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="">Persoonlijk contact over deelname </label>
-            </div>
-            <div class="checkbox disabled">
-              <label><input type="checkbox" value="" disabled>Meer informatie </label>
-            </div>
-            <div class="form-group">
-              <label for="comment">Opmerkingen:</label>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
-            </div>
-            <div class="form-group" style="text-align: center;">
-              <input type="button" name="send" class="btn btn-danger" value="Versturen">
-            </div>
-          </form>
+          <?php include 'assets/php/schooldata.php'; ?>
+                  <h1>Bedrijf aanmelden</h1>
+        <form>
+          <div class="form-group">
+            <label for="comment">Opleiding naam:</label>
+            <input type="text" class="form-control" id="comment">
+          </div>
+          <div class="form-group">
+            <label for="comment">Contactpersoon:</label>
+            <input type="text" class="form-control" id="comment">
+          </div>
+          <div class="form-group">
+            <label for="comment">E-mail:</label>
+            <input type="text" class="form-control" id="comment">
+          </div>
+          <div class="form-group">
+            <label for="comment">Telefoon:</label>
+            <input type="text" class="form-control" id="comment">
+          </div>
+          <p>Wat wilt u</p>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Een of meerdere team aanmelden </label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Persoonlijk contact over deelname </label>
+          </div>
+          <div class="checkbox disabled">
+            <label><input type="checkbox" value="" disabled>Meer informatie </label>
+          </div>
+          <div class="form-group">
+            <label for="comment">Opmerkingen:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <div class="form-group" style="text-align: center;">
+            <input type="button" name="send" class="btn btn-danger" value="Versturen">
+          </div>
+        </form>
         </div>
       </div>
 
+      <div class="row">
 
+      </div>
     </div>
 
 

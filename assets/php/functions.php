@@ -27,10 +27,8 @@ class Sponsor{
             }
             return $array;
 		}
-<<<<<<< HEAD
 }
 
-<<<<<<< HEAD
 class pages {
 	private $connection;
 	protected $page;
@@ -47,8 +45,9 @@ class pages {
 		while ($row = mysqli_fetch_assoc($result)) {
                 echo $row['content'];
             }
-	}
-=======
+	} }
+    
+
 class Portfolio{
     private $connection;
 
@@ -65,7 +64,4 @@ class Portfolio{
             }
             return $array;
         }
->>>>>>> 55c1ff460b02002b0fffd0fc1020c2baaeccb025
-=======
->>>>>>> parent of 55c1ff4... made edits
 }

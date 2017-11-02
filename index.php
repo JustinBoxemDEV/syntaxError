@@ -302,8 +302,7 @@
                 <div class="row fade-up">
                     <div class="col-md-6">
                       	<div class="testimonial-list-item">
-                            
-                        <img class="pull-left img-responsive quote-author-list rounded-circle img-circle" src="images/team/team01.jpg">
+                        <img class="pull-left img-responsive quote-author-list" src="images/team/team01.jpg">
                             <blockquote>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <small>Manager at <cite title="Source Title">Company</cite></small>
@@ -467,7 +466,7 @@
                         <li class="portfolio-item apps isotope-item">
                             <div class="item-inner">
                                 <img src="images/portfolio/folio01.jpg" alt="">
-                                <h5>Syntax Error;</h5>
+                                <h5>Portfolio Project</h5>
                                 <div class="overlay">
                                     <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
@@ -574,7 +573,7 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive img-circle" src="images/team/team01.jpg" style="width: 100px;height:100px;">
+	                                                <img class="img-responsive" src="images/team/team01.jpg" style="width: 100px;height:100px;">
 	                                            </div>
 	                                            <div class="col-sm-9">
 	                                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
@@ -588,7 +587,7 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive img-circle" src="images/team/team02.jpg" style="width: 100px;height:100px;">
+	                                                <img class="img-responsive" src="images/team/team02.jpg" style="width: 100px;height:100px;">
 	                                            </div>
 	                                            <div class="col-sm-9">
 	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
@@ -602,7 +601,7 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive img-circle" src="images/team/team03.jpg" style="width: 100px;height:100px;">
+	                                                <img class="img-responsive" src="images/team/team03.jpg" style="width: 100px;height:100px;">
 	                                            </div>
 	                                            <div class="col-sm-9">
 	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
@@ -780,6 +779,144 @@
                 </div>
        		</section>
 
+            <section id="pricing" class="white">
+                <div class="container">
+                    <div class="center gap fade-down section-heading">
+                        <h2 class="main-title">So, How Much?</h2>
+                        <hr>
+                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div id="pricing-table" class="row">
+                        <div class="col-md-3 col-xs-6 flip-in">
+                            <ul class="plan plan1">
+                                <li class="plan-name">
+                                    <h3>Basic</h3>
+                                </li>
+                                <li class="plan-price">
+                                    <div>
+                                        <span class="price"><sup>$</sup>10</span>
+                                        <small>month</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <strong>5GB</strong> Storage
+                                </li>
+                                <li>
+                                    <strong>1GB</strong> RAM
+                                </li>
+                                <li>
+                                    <strong>400GB</strong> Bandwidth
+                                </li>
+                                <li>
+                                    <strong>10</strong> Email Address
+                                </li>
+                                <li>
+                                    <strong>Forum</strong> Support
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
+                                </li>
+                            </ul>
+                        </div><!--/.col-md-3-->
+                        <div class="col-md-3 col-xs-6 flip-in">
+                            <ul class="plan plan2 featured">
+                                <li class="plan-name">
+                                    <h3>Standard</h3>
+                                </li>
+                                <li class="plan-price">
+                                    <div>
+                                        <span class="price"><sup>$</sup>20</span>
+                                        <small>month</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <strong>5GB</strong> Storage
+                                </li>
+                                <li>
+                                    <strong>1GB</strong> RAM
+                                </li>
+                                <li>
+                                    <strong>400GB</strong> Bandwidth
+                                </li>
+                                <li>
+                                    <strong>10</strong> Email Address
+                                </li>
+                                <li>
+                                    <strong>Forum</strong> Support
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-outlined btn-primary btn-md">Signup</a>
+                                </li>
+                            </ul>
+                        </div><!--/.col-md-3-->
+                        <div class="col-md-3 col-xs-6 flip-in">
+                            <ul class="plan plan3">
+                                <li class="plan-name">
+                                    <h3>Advanced</h3>
+                                </li>
+                                <li class="plan-price">
+                                    <div>
+                                        <span class="price"><sup>$</sup>40</span>
+                                        <small>month</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <strong>50GB</strong> Storage
+                                </li>
+                                <li>
+                                    <strong>8GB</strong> RAM
+                                </li>
+                                <li>
+                                    <strong>1024GB</strong> Bandwidth
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong> Email Address
+                                </li>
+                                <li>
+                                    <strong>Forum</strong> Support
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
+                                </li>
+                            </ul>
+                        </div><!--/.col-md-3-->
+                        <div class="col-md-3 col-xs-6 flip-in">
+                            <ul class="plan plan4">
+                                <li class="plan-name">
+                                    <h3>Mighty</h3>
+                                </li>
+                                <li class="plan-price">
+                                    <div>
+                                        <span class="price"><sup>$</sup>100</span>
+                                        <small>month</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <strong>50GB</strong> Storage
+                                </li>
+                                <li>
+                                    <strong>8GB</strong> RAM
+                                </li>
+                                <li>
+                                    <strong>1024GB</strong> Bandwidth
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong> Email Address
+                                </li>
+                                <li>
+                                    <strong>Forum</strong> Support
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
+                                </li>
+                            </ul>
+                        </div><!--/.col-md-3-->
+                    </div>
+                    <div class="gap"></div>
+                </div>
+            </section>
+
 			<div id="mapwrapper">
 				<div id="map"></div>
 			</div>
@@ -822,11 +959,9 @@
                     <div class="gap"></div>
                 </div>
             </section>
-             <?php include 'footer.php'; ?>
+            <?php include 'footer.php';?>
         </div>
-       
 
-    
 
 
     <script src="js/plugins.js"></script>
@@ -835,5 +970,4 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>
     <script src="js/init.js"></script>
 </body>
-
 </html>

@@ -1,3 +1,4 @@
+
 <div class="container-fluid" style="min-height: 170px; background-color: #0099ff; margin-bottom: 0px; color:white; z-index: 999">
 	<div class="container">
 			<div class="row">
@@ -48,5 +49,3 @@
 				</div>		
 			</div>
 	</div>
-
-</div>

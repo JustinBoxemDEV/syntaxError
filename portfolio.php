@@ -48,7 +48,7 @@
     });
     </script>
 </head><!--/head-->
-<body style="margin-bottom: 30px;">
+<body style="margin-top:70px;">
 <div id="preloader"></div>
 
 <?php require 'navbar.php';?>
@@ -58,7 +58,7 @@
 
                   <h2 class="main-title" style="text-align: center;">Portfolio</h2>
 
-                <div class="row" style="border: solid red 2px;">
+                <div class="row" >
                   <div class="col-sm-4">
                     <a href="#" data-toggle="modal" data-target="#myModal1">
                       <h2>2017</h2>

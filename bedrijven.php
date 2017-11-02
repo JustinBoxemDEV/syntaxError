@@ -50,19 +50,18 @@
     </script>
 
 </head><!--/head-->
-<body>
+<body style="margin-top: 70px">
 <div id="preloader"></div>
   <?php require 'navbar.php';?>
 
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <?php include 'assets/php/companydata.php'; ?>
+        <div class="col-lg-12">
+          <?php include 'assets/php/companydata.php';?>
         </div>
       </div>
     <div class="row">
-      <div class="col-lg-12">
       <h1>Bedrijf aanmelden</h1>
       <form>
         <div class="form-group">
@@ -100,8 +99,7 @@
         </div>
       </form>
     </div>
-  </div>
-  </div>
+    </div>
 
 
 

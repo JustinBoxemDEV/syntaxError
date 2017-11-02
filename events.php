@@ -97,20 +97,6 @@
                         </div>
                       </div>
 
-<!--                       <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
-                        <div class="col-sm-1">
-                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
-                        </div>
-                        <div class="col-sm-3">
-                          <h3 style="margin: 0px;">Event Naam</h3>
-                          Datum: 12-10-2017
-                        </div>
-                        <div class="col-sm-8">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
-                          </p>
-                        </div>
-                      </div>
-
                       <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
                         <div class="col-sm-1">
                           <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
@@ -166,7 +152,21 @@
                           </p>
                         </div>
                       </div>
- -->
+
+                      <div class="row" style="border-bottom: solid black 2px; background-color: lightblue; padding-top: 2px; padding-bottom: 2px; margin-bottom: 5px;">
+                        <div class="col-sm-1">
+                          <img class="img-responsive" src="example.jpg" alt="Chania" height="100px">
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 style="margin: 0px;">Event Naam</h3>
+                          Datum: 12-10-2017
+                        </div>
+                        <div class="col-sm-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis diam ac mi suscipit dictum. Proin id sapien ac lectus venenatis placerat. Quisque lacinia eleifend lorem. Praesent suscipit ac diam eget ornare. Quisque ac eros et odio ornare suscipit nec placerat erat. Praesent a ligula sagittis, vestibulum ante et, euismod.
+                          </p>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
