@@ -63,6 +63,11 @@
       </div>
     <div class="row">
       <h1>Bedrijf aanmelden</h1>
+      <?php
+     /*
+      * Include de contestants page, waar de verwerkingscode staat van de form.
+      */
+      include 'assets/php/compContestants.php'; ?>
       <form action="" method="post">
         <div class="form-group">
           <label for="comment">Bedrijfs naam:</label>
@@ -95,10 +100,10 @@
         </div>
         <div class="form-group">
           <label name="comments" for="comment">Opmerkingen:</label>
-          <textarea class="form-control" rows="5" id="comment"></textarea>
+          <textarea name="comments" class="form-control" rows="5" id="comment"></textarea>
         </div>
         <div class="form-group" style="text-align: center;">
-          <input type="button" name="send" class="btn btn-danger" value="Versturen">
+          <input type="submit" name="send" class="btn btn-danger" value="Versturen">
         </div>
       </form>
     </div>
