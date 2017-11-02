@@ -28,3 +28,22 @@ class Sponsor{
             return $array;
 		}
 }
+
+class pages {
+	private $connection;
+	protected $page;
+	protected $content;
+
+	function __construct() {
+		$this->connection = new DB_con();
+	}
+
+	public function getText($pagename) {
+		$query = "SELECT content FROM " . $pagename . "";
+		var_dump($query);
+		$result = $this->connection->sql($query);
+		while ($row = mysqli_fetch_assoc($result)) {
+                echo $row['content'];
+            }
+	}
+}
