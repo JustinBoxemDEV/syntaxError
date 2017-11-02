@@ -110,6 +110,7 @@ class Forms {
     }
     
     public function sendComp(){
+<<<<<<< HEAD
         $sql = "INSERT INTO compContestant (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
 =======
         $sql = "INSERT INTO comContestants (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
