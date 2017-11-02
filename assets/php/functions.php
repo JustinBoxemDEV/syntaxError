@@ -77,7 +77,7 @@ class Products{
         }
 }
 
-class Forms() {
+class Forms {
     private $connection;
 
     public function __construct() {
