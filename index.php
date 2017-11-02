@@ -93,7 +93,7 @@
                         <div class="center gap fade-down section-heading">
                             <h2 class="main-title">Kenmerken</h2>
                             <hr>
-                            <p>Battle of the Schools, een prachtige kans voor studenten, scholen en ondernemers!</p>
+                            <h4>Battle of the Schools, een prachtige kans voor studenten, scholen en ondernemers!</h4>
                         </div>
                     </div>
                 </div>
