@@ -25,5 +25,5 @@ foreach($array as $dataResult => $value){
 	}
 
 	}
-	echo "<a href='".$link."'><img src='../images/".$imageurl." 'width='200px'></a><br>";
+	echo "<a href='".$link."'><img src='../images/".$imageurl." 'width='200px' 'height='200px'></a><br>";
 }
