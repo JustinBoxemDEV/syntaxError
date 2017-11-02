@@ -110,7 +110,7 @@ class Forms {
     }
     
     public function sendComp(){
-        $sql = "INSERT INTO contestants (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
+        $sql = "INSERT INTO compContestant (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
                 . "VALUES ('".$this->name."', '".$this->contactName."', '".$this->contactMail."', '".$this->contactPhone."', '".$this->comments."', '".$this->info."', '".$this->personalContact."', '".$this->casis."')";
     }        
 }
