@@ -11,7 +11,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.php"><img src="images/sticker-02.png" width="100%;" height="100%"></a><a href="index.php"><h5>Battle of the schools</h5></a>
+                <a class="navbar-brand" href="index.php"><img src="images/sticker-02.png" width="40px"></a><a href="index.php"><h5>Battle of the schools</h5></a>
             </div>
                   <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
