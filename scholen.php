@@ -92,7 +92,7 @@
             <label><input name="personalContact" type="checkbox" value="1">Persoonlijk contact over deelname </label>
           </div>
           <div class="checkbox disabled">
-                   <input name="personalContact" type="hidden" value="0">
+                   <input name="info" type="hidden" value="0">
             <label><input name="info" type="checkbox" value="1">Meer informatie </label>
           </div>
           <div class="form-group">

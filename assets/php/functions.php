@@ -111,6 +111,9 @@ class Forms {
     
     public function sendComp(){
         $sql = "INSERT INTO compContestant (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
+=======
+        $sql = "INSERT INTO comContestants (name, contactName, contactMail, contactPhone, comments, info, personalContact, casis)"
+>>>>>>> 3b98f40dde672cd2aff0e9ce4cc1f6a99be331e7
                 . "VALUES ('".$this->name."', '".$this->contactName."', '".$this->contactMail."', '".$this->contactPhone."', '".$this->comments."', '".$this->info."', '".$this->personalContact."', '".$this->casis."')";
     }        
 }
