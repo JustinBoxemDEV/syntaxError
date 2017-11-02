@@ -58,3 +58,21 @@ class Portfolio{
             return $array;
         }
 }
+
+class Products{
+    private $connection;
+
+    public function __construct() {
+        $this->connection = new DB_con();
+    }
+
+    public function getProductsDB() {
+            $array = array();
+            $query = "SELECT product, image FROM campaign";
+            $result = $this->connection->sql($query);
+            while ($row = mysqli_fetch_assoc($result)) {
+                array_push($array, array("product"=>$row['product'], "image"=>$row['image']));
+            }
+            return $array;
+        }
+}
