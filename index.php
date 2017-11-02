@@ -8,6 +8,9 @@
     <title>Home | Battle of the schools</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+
+<script src="https://use.fontawesome.com/f638cb783e.js"></script>
+
     <link href="css/pe-icons.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -27,10 +30,13 @@
     jQuery(document).ready(function($){
 	'use strict';
       	jQuery('body').backstretch([
-	        "images/bg/bg1.jpg",
-	        "images/bg/bg2.jpg",
-	        "images/bg/bg3.jpg"
-	    ], {duration: 5000, fade: 500, centeredY: true });
+	        "images/slide1.jpg",
+	        "images/slide2.jpg",
+	        "images/slide3.jpg",
+            "images/slide4.jpg",
+            "images/slide5.jpg",
+            "images/slide6.jpg"
+	    ], {duration: 3400, fade: 500, centeredY: true });
 
 		$("#mapwrapper").gMap({ controls: false,
          	scrollwheel: false,
@@ -52,7 +58,7 @@
     });
     </script>
 </head><!--/head-->
-<body>
+<body style="margin-top: 70px;">
 <div id="preloader"></div>
 <?php require 'navbar.php';?>
 
@@ -64,11 +70,11 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                	<span class="home-icon pe-7s-gleam bounce-in"></span>
-                                    <h2 class="boxed animation animated-item-1 fade-down">WE GONNA HELP YOU MAKE AN IMPACT</h2>
-                                    <p class="boxed animation animated-item-2 fade-up">Our expertise will guide you to success. Without Fail.</p>
+                                	<center><img src="images/sticker-02.png"></center>
+                                    <h2 class="boxed animation animated-item-1 fade-down">Let's change the future together!</h2>
+                                    <!-- <p class="boxed animation animated-item-2 fade-up">Our expertise will guide you to success. Without Fail.</p> -->
                                     <br>
-                                    <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
+                                    <a class="btn btn-md animation bounce-in" href="#services">Tell me more</a>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +91,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Stuff We Do</h2>
+                            <h2 class="main-title">Kenmerken</h2>
                             <hr>
                             <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
                         </div>
@@ -96,7 +102,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="service-block">
                             <div class="pull-left bounce-in">
-                                <i class="fa fa-camera fa fa-md"></i>
+                                <i class="fa fa-address-card fa fa-md"></i>
                             </div>
                             <div class="media-body fade-up">
                                 <h3 class="media-heading">Photography</h3>
@@ -249,7 +255,7 @@
 
 
 		<section id="single-quote" class="divider-section">
-	            <div class="container">
+	            <div class="container-fluid">
 	            	<div class="gap"></div>
 	                <div class="row">
 	                    <div class='col-md-offset-2 col-md-8 fade-up'>
@@ -258,12 +264,9 @@
 	                                <div class="item active">
 	                                    <blockquote>
 	                                        <div class="row">
-	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team01.jpg" style="width: 100px;height:100px;">
-	                                            </div>
-	                                            <div class="col-sm-9">
-	                                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-	                                                <small>Someone famous</small>
+	                                            <div class="col-sm-12 text-center">
+	                                                <p style="font-size: 30px">Mijn ervaring tot nu toe: Geweldig. Je leert er veel en er zijn leuke opdrachten om aan te werken!</p>
+	                                                <small>Sander van Hoogdalem, student Drenthe College</small>
 	                                            </div>
 	                                        </div>
 	                                    </blockquote>
@@ -282,7 +285,7 @@
 	            <div class="row">
 	                <div class="col-md-12">
 	                    <div class="center gap fade-down section-heading">
-	                        <h2 class="main-title">A Little About Us</h2>
+	                        <h2 class="main-title">Over de battle</h2>
 	                        <hr>
 	                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
 	                    </div>
@@ -334,79 +337,6 @@
                     </div>
                 </div>
 
-	            <div class="gap"></div>
-	            <div class="center gap fade-down section-heading">
-	                <h2 class="main-title">Meet The Team</h2>
-	                <hr>
-	                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-	            </div>
-	            <div class="gap"></div>
-
-	            <div id="meet-the-team" class="row">
-	                <div class="col-md-3 col-xs-6">
-	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team01.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-	                        <div class="team-content fade-up">
-	                            <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-	                        </div>
-	                    </div>
-	                </div>
-
-	                <div class="col-md-3 col-xs-6">
-	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team02.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-	                        <div class="team-content fade-up">
-	                            <h5>John Smith<small class="role muted">Marketing Director</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 col-xs-6">
-	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team03.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-	                        <div class="team-content fade-up">
-	                            <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 col-xs-6">
-	                    <div class="center team-member">
-                            <div class="team-image">
-    	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team04.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-	                        <div class="team-content fade-up">
-	                            <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div><!--/#meet-the-team-->
-	            <div class="gap"></div>
-	            <div class="gap"></div>
             </div>
         </section>
 
@@ -417,29 +347,29 @@
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-                            <h1><span class="counter">246000</span></h1>
-                            <h3>HOURS SAVED</h3>
+                            <h1><span class="counter">144</span></h1>
+                            <h3>HOURS PASSED</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
-                            <h1><span class="counter">16875</span></h1>
-                            <h3>FRESH IDEAS</h3>
+                            <h1><span class="counter">15</span></h1>
+                            <h3>TEAMS IN 2017</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
                             <h1><span class="counter">99999999</span></h1>
-                            <h3>HUGE PROFIT</h3>
+                            <h3>HUGE PROFIT FOR EVERYONE</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
-                            <h1><span class="counter">54875</span></h1>
-                            <h3>THINGS IN BOXES</h3>
+                            <h1><span class="counter">20</span></h1>
+                            <h3>Ideeën uitgewerkt</h3>
                         </div>
                     </div>
                 </div>
@@ -447,479 +377,11 @@
             <div class="gap"></div>
         </section>
 
-        <section id="portfolio" class="white">
-       		<div class="container">
-	        	<div class="gap"></div>
-		        	<div class="center gap fade-down section-heading">
-		                <h2 class="main-title">Examples Of Excellence</h2>
-		                <hr>
-		                <p>She evil face fine calm have now. Separate screened he outweigh of distance landlord.</p>
-		            </div>
-<ul class="portfolio-filter fade-down center">
-                        <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
-                    </ul><!--/#portfolio-filter-->
 
-                    <ul class="portfolio-items col-3 isotope fade-up">
-                        <li class="portfolio-item apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio01.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio02.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item bootstrap design isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio03.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla design apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio04.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio05.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio06.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla design apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio07.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio08.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress design isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio09.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio09.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                    </ul>
-                </div>
-            </section>
-
-            <section id="testimonial-carousel" class="divider-section">
-            <div class="gap"></div>
-	            <div class="container">
-	                <div class="row">
-                    	<div class="center gap fade-down section-heading">
-                            <h2 class="main-title">What They Have Been Saying</h2>
-                            <hr>
-                            <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                            <div class="gap"></div>
-                        </div>
-	                    <div class='col-md-offset-2 col-md-8 fade-up'>
-	                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-	                            <!-- Bottom Carousel Indicators -->
-	                            <ol class="carousel-indicators">
-	                                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-	                                <li data-target="#quote-carousel" data-slide-to="1"></li>
-	                                <li data-target="#quote-carousel" data-slide-to="2"></li>
-	                            </ol>
-	                            <!-- Carousel Slides / Quotes -->
-	                            <div class="carousel-inner">
-	                              <!-- Quote 1 -->
-	                                <div class="item active">
-	                                    <blockquote>
-	                                        <div class="row">
-	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team01.jpg" style="width: 100px;height:100px;">
-	                                            </div>
-	                                            <div class="col-sm-9">
-	                                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-	                                                <small>Someone famous</small>
-	                                            </div>
-	                                        </div>
-	                                    </blockquote>
-	                                </div>
-	                                <!-- Quote 2 -->
-	                                <div class="item">
-	                                    <blockquote>
-	                                        <div class="row">
-	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team02.jpg" style="width: 100px;height:100px;">
-	                                            </div>
-	                                            <div class="col-sm-9">
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-	                                                <small>Someone famous</small>
-	                                            </div>
-	                                        </div>
-	                                    </blockquote>
-	                                </div>
-	                                <!-- Quote 3 -->
-	                                <div class="item">
-	                                    <blockquote>
-	                                        <div class="row">
-	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team03.jpg" style="width: 100px;height:100px;">
-	                                            </div>
-	                                            <div class="col-sm-9">
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-	                                                <small>Someone famous</small>
-	                                            </div>
-	                                        </div>
-	                                    </blockquote>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="gap"></div>
-	      		</div>
-      		</section>
-
-            <section id="blog" class="white">
-                <div class="container">
-                    <div class="center gap fade-down section-heading">
-                   		<div class="gap"></div>
-                        <h2 class="main-title">From The Blog</h2>
-                        <hr>
-                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio02.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio06.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio11.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio02.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio06.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="col-md-4">
-	                        <div class="post">
-	                            <div class="post-img-content">
-	                                <img src="images/portfolio/folio11.jpg" class="img-responsive" />
-	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-	                                </div>
-	                            </div>
-	                            <div class="content">
-	                                <h2 class="post-title">Post Title</h2>
-	                                <div class="author">
-	                                    <i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th, 2014</time>
-	                                </div>
-	                                <div>
-	                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-	                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-	                                </div>
-	                                <div class="read-more-wrapper">
-	                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-                    </div>
-                </div>
-       		</section>
-
-            <section id="pricing" class="white">
-                <div class="container">
-                    <div class="center gap fade-down section-heading">
-                        <h2 class="main-title">So, How Much?</h2>
-                        <hr>
-                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div id="pricing-table" class="row">
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan1">
-                                <li class="plan-name">
-                                    <h3>Basic</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup>$</sup>10</span>
-                                        <small>month</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    <strong>5GB</strong> Storage
-                                </li>
-                                <li>
-                                    <strong>1GB</strong> RAM
-                                </li>
-                                <li>
-                                    <strong>400GB</strong> Bandwidth
-                                </li>
-                                <li>
-                                    <strong>10</strong> Email Address
-                                </li>
-                                <li>
-                                    <strong>Forum</strong> Support
-                                </li>
-                                <li class="plan-action">
-                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan2 featured">
-                                <li class="plan-name">
-                                    <h3>Standard</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup>$</sup>20</span>
-                                        <small>month</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    <strong>5GB</strong> Storage
-                                </li>
-                                <li>
-                                    <strong>1GB</strong> RAM
-                                </li>
-                                <li>
-                                    <strong>400GB</strong> Bandwidth
-                                </li>
-                                <li>
-                                    <strong>10</strong> Email Address
-                                </li>
-                                <li>
-                                    <strong>Forum</strong> Support
-                                </li>
-                                <li class="plan-action">
-                                    <a href="#" class="btn btn-outlined btn-primary btn-md">Signup</a>
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan3">
-                                <li class="plan-name">
-                                    <h3>Advanced</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup>$</sup>40</span>
-                                        <small>month</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    <strong>50GB</strong> Storage
-                                </li>
-                                <li>
-                                    <strong>8GB</strong> RAM
-                                </li>
-                                <li>
-                                    <strong>1024GB</strong> Bandwidth
-                                </li>
-                                <li>
-                                    <strong>Unlimited</strong> Email Address
-                                </li>
-                                <li>
-                                    <strong>Forum</strong> Support
-                                </li>
-                                <li class="plan-action">
-                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan4">
-                                <li class="plan-name">
-                                    <h3>Mighty</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup>$</sup>100</span>
-                                        <small>month</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    <strong>50GB</strong> Storage
-                                </li>
-                                <li>
-                                    <strong>8GB</strong> RAM
-                                </li>
-                                <li>
-                                    <strong>1024GB</strong> Bandwidth
-                                </li>
-                                <li>
-                                    <strong>Unlimited</strong> Email Address
-                                </li>
-                                <li>
-                                    <strong>Forum</strong> Support
-                                </li>
-                                <li class="plan-action">
-                                    <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                    </div>
-                    <div class="gap"></div>
-                </div>
-            </section>
-
-			<div id="mapwrapper">
+            
+<!-- 			<div id="mapwrapper">
 				<div id="map"></div>
-			</div>
+			</div> -->
 
             <section id="contact" class="white">
                 <div class="container">
@@ -932,13 +394,13 @@
                     <div class="gap"></div>
                     <div class="row">
                         <div class="col-md-4 fade-up">
-                            <h3>Contact Information</h3>
-                            <p><span class="icon icon-home"></span>Time Square, New York<br/>
+                            <h3>Contact Informatie</h3>
+                            <p><span class="icon icon-home"></span>Let's gro, Groningen<br/>
                                 <span class="icon icon-phone"></span>+36 65984 405<br/>
                                 <span class="icon icon-mobile"></span>+36 65984 405<br/>
-                                <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br/>
-                                <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br/>
-                                <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br/>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto://tijn@battleoftheschools.nl"> tijn@battleoftheschools.nl</a> <br/>
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i> <a href="#"> @bot_050</a> <br/>
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i> <a href="#"> Battle of the Schools</a> <br/>
                             </p>
                         </div><!-- col -->
 
