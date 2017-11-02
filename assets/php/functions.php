@@ -11,12 +11,6 @@ class Sponsor{
         $this->connection = new DB_con();
     }
 
-//	public function create($name, $image, $link) {
-//			$this->sponsor_name = $name;
-//			$this->sponsor_image = $image;
-//			$this->sponsor_link = $link;
-//			return "Sponsor succesvol toegevoegd.";
-//		}
 
 	public function getDataFromDB() {
 			$array = array();
@@ -40,7 +34,6 @@ class pages {
 
 	public function getText($pagename) {
 		$query = "SELECT content FROM " . $pagename . "";
-		var_dump($query);
 		$result = $this->connection->sql($query);
 		while ($row = mysqli_fetch_assoc($result)) {
                 echo $row['content'];
