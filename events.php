@@ -19,7 +19,7 @@
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+   	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
 
@@ -62,7 +62,7 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <!-- <div class="carousel-inner">
           <div class="item active">
             <img src="fotos/event_courosel/test.jpg" alt="Los Angeles" style="width:100%;">
           </div>
@@ -70,13 +70,13 @@
           <div class="item">
             <img src="fotos/event_courosel/test2.jpg" alt="Chicago" style="width:100%;">
           </div>
-        </div>
+        </div> -->
 
 
       </div>
     </div>
 
-<div class="container">
+<div class="container" style="margin-top: 10%;">
 
                   <h2 class="main-title" style="text-align: center;">events</h2>
 
