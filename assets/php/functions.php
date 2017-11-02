@@ -132,3 +132,21 @@ class Enquete{
             return $array;
         }
 }
+
+class Events{
+    private $connection;
+
+    public function __construct() {
+        $this->connection = new DB_con();
+    }
+
+    public function getEventData() {
+            $array = array();
+            $query = "SELECT name, image, description, date_start, date_end FROM events";
+            $result = $this->connection->sql($query);
+            while ($row = mysqli_fetch_assoc($result)) {
+                array_push($array, array("name"=>$row['name'], "image"=>$row['image'], "description"=>$row['description'], "date_start"=>$row['date_start'], "date_end"=>$row['date_end']));
+            }
+            return $array;
+        }
+    }
