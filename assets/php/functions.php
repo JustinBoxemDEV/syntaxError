@@ -3,10 +3,20 @@ include 'database.php';
 
 class Sponsor{
 	private $connection;
+	protected $sponsor_name;
+	protected $sponsor_image;
+	protected $sponsor_link;
 
 	public function __construct() {
         $this->connection = new DB_con();
     }
+
+//	public function create($name, $image, $link) {
+//			$this->sponsor_name = $name;
+//			$this->sponsor_image = $image;
+//			$this->sponsor_link = $link;
+//			return "Sponsor succesvol toegevoegd.";
+//		}
 
 	public function getDataFromDB() {
 			$array = array();
@@ -17,6 +27,7 @@ class Sponsor{
             }
             return $array;
 		}
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -55,4 +66,6 @@ class Portfolio{
             return $array;
         }
 >>>>>>> 55c1ff460b02002b0fffd0fc1020c2baaeccb025
+=======
+>>>>>>> parent of 55c1ff4... made edits
 }
