@@ -178,55 +178,23 @@
 	                    <div class="center gap fade-down section-heading">
 	                        <h2 class="main-title">Over de battle</h2>
 	                        <hr>
-	                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+	                        <b>De toekomst komt steeds dichterbij</b>
 	                    </div>
 	                </div>
 	            </div>
 	            <div class="row">
 	                <div class="col-md-10 col-md-offset-1 fade-up">
-	                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+	                    <p>Battle of the Schools is sinds 2016 onderdeel van het Let’s Gro Festival in Groningen. Let’s Gro is een jaarlijks festival in november over de toekomst. Tijdens Let’s Gro kun je contacten leggen, je met ideeën voeden en je horizon verbreden in de fysieke en digitale wereld. Groningen laat op een positieve zelfbewuste manier zien dat er in het noorden meer te halen valt dan rust, ruimte en gas. Het noorden claimt met recht zijn voortrekkersrol op het gebied van (online) ICT, economie en sociale innovaties. In het hart van Groningen wordt de stad en wereld van morgen ontdekt. <b>De toekomst komt steeds dichterbij.</b></p>
 
-	                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+	                    <p>Van woensdag 1 t/m vrijdag 3 november 2017 strijden de teams van mbo, hbo en wo-opleidingen op het gebied van ICT en multimedia uit Noord-Nederland tegen elkaar. In een 48 uur durende non-stop battle maken zij werkende oplossingen voor de door het bedrijfsleven/instellingen ingebrachte cases, uitdagingen en opdrachten. Dit wordt de derde editie van Battle of the Schools. In het eerste jaar werd de strijd gewonnen door het team van ROC Friese Poort Drachten. In het tweede jaar ging het team van de Hanzehogeschool Groningen er met alle prijzen vandoor.
+                        <b>Dit jaar moet de grootste Battle worden.</b>
+                        <b>Meer teams, meer opdrachtgevers, meer prijzen en nog grotere bekers.<b> </p>
 	                </div>
 	                <div class="col-md-4 fade-up">
 
 	                </div>
 	            </div>
-               <div class="gap"></div>
-                <div class="row fade-up">
-                    <div class="col-md-6">
-                      	<div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="images/team/team01.jpg">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="images/team/team01.jpg">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="images/team/team01.jpg">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="images/team/team01.jpg">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
         </section>
@@ -281,7 +249,7 @@
                     <div class="center gap fade-down section-heading">
                         <h2 class="main-title">Get In Touch</h2>
                         <hr>
-                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                        <p>Kom meteen met ons in contact! Laat van je horen!</p>
                     </div>
                     <div class="gap"></div>
                     <div class="row">
@@ -297,16 +265,16 @@
                         </div><!-- col -->
 
                         <div class="col-md-8 fade-up">
-                            <h3>Drop Us A Message</h3>
+                            <h3>Laat hier je bericht achter!</h3>
                             <br>
                             <br>
                             <div id="message"></div>
                             <form method="post" action="sendemail.php" id="contactform">
-                                <input type="text" name="name" id="name" placeholder="Name" />
+                                <input type="text" name="name" id="name" placeholder="Naam" />
                                 <input type="text" name="email" id="email" placeholder="Email" />
                                 <input type="text" name="website" id="website" placeholder="Website" />
-                                <textarea name="comments" id="comments" placeholder="Comments"></textarea>
-                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                                <textarea name="comments" id="comments" placeholder="Opmerkingen"></textarea>
+                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Verzenden" />
                             </form>
                         </div><!-- col -->
                     </div><!-- row -->
