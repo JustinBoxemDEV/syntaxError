@@ -63,33 +63,36 @@
         <form>
           <div class="form-group">
             <label for="comment">Opleiding naam:</label>
-            <input type="text" class="form-control" id="comment">
+            <input name="name" type="text" class="form-control" id="comment">
           </div>
           <div class="form-group">
             <label for="comment">Contactpersoon:</label>
-            <input type="text" class="form-control" id="comment">
+            <input name="contactName" type="text" class="form-control" id="comment">
           </div>
           <div class="form-group">
             <label for="comment">E-mail:</label>
-            <input type="text" class="form-control" id="comment">
+            <input name="contactEmail" type="text" class="form-control" id="comment">
           </div>
           <div class="form-group">
             <label for="comment">Telefoon:</label>
-            <input type="text" class="form-control" id="comment">
+            <input name="contactPhone" type="text" class="form-control" id="comment">
           </div>
           <p>Wat wilt u</p>
           <div class="checkbox">
-            <label><input type="checkbox" value="">Een of meerdere team aanmelden </label>
+              <input name="quantity" type="hidden" value="0">
+            <label><input name="quantity" type="checkbox" value="1">Een of meerdere team aanmelden </label>
           </div>
           <div class="checkbox">
-            <label><input type="checkbox" value="">Persoonlijk contact over deelname </label>
+                   <input name="personalContact" type="hidden" value="0">
+            <label><input name="personalContact" type="checkbox" value="1">Persoonlijk contact over deelname </label>
           </div>
           <div class="checkbox disabled">
-            <label><input type="checkbox" value="" disabled>Meer informatie </label>
+                   <input name="personalContact" type="hidden" value="0">
+            <label><input name="info" type="checkbox" value="1" disabled>Meer informatie </label>
           </div>
           <div class="form-group">
             <label for="comment">Opmerkingen:</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <textarea name="comments" class="form-control" rows="5" id="comment"></textarea>
           </div>
           <div class="form-group" style="text-align: center;">
             <input type="button" name="send" class="btn btn-danger" value="Versturen">
@@ -114,4 +117,5 @@
 </body>
 <?php include 'footer.php'; ?>
 
+<div></div>
 </html>
