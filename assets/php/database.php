@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST','dasounds.nl');
-define('DB_USER','monoord');
-define('DB_PASS' ,'vbh7rv7nAqhQwbkn!');
-define('DB_NAME', 'monoord');
+define('DB_HOST','server.sandhoofd.nl');
+define('DB_USER','battle');
+define('DB_PASS' ,'Battle2017!');
+define('DB_NAME', 'bots');
 
 class DB_con {
 	private $verbinding;
