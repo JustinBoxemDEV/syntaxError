@@ -353,23 +353,24 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
+                            <span class="stat-icon"><span class="pe-7s-study bounce-in"></span></span>                           
                             <h1><span class="counter">15</span></h1>
                             <h3>TEAMS IN 2017</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
-                            <h1><span class="counter">99999999</span></h1>
-                            <h3>HUGE PROFIT FOR EVERYONE</h3>
+
+                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
+                            <h1><span class="counter">32</span></h1>
+                            <h3>Ideeën uitgewerkt bij #bots</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
-                            <h1><span class="counter">20</span></h1>
-                            <h3>Ideeën uitgewerkt</h3>
+                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
+                            <h1><span class="counter">99999999</span></h1>
+                            <h3>Huge progress for <b>everyone</b></h3>
                         </div>
                     </div>
                 </div>
